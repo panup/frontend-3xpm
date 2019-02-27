@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.App {
+    height: 100vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8b5a99+0,3f4c6b+100 */
+    background: #8b5a99; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #8b5a99 0%, #3f4c6b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #8b5a99 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #8b5a99 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b5a99', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+    background-attachment: fixed;
+    width: 100%;
+    display: inline-block;
+
+    overflow-y: hidden;
+    
+
+}
+
+.content-wrapper{
+    
+    margin-left: 300px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    //background-color: #2b2b2b;
+    height: 100%;
+    
+    
+}
+.content{
+    background-color: #2b2b2b;
+
+    
+    padding-left: 40px;
+    padding-top: 40px;
+
+    height: 100%;
+    box-sizing: border-box;
+
+    overflow-y: auto;
+
+}
+
+.text-gray{
+    color: #c5c5c5;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.content::-webkit-scrollbar-track
+{
+	background-color: #1d1d1d;
+}
+
+.content::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #1d1d1d;
+}
+
+.content::-webkit-scrollbar-thumb
+{
+	background-color: #595959;
+}
