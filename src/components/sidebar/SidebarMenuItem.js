@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
+import { Icon } from '../Icon';
+
 import './Sidebar.scss'
-import '../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss'
-import '../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss'
 
 class SidebarMenuItem extends Component {
   render() {
+    const { title, url, icon } = this.props;
     return (
-        <a href={this.props.url}>
-            <i className={this.props.icon}></i>
-            <span>{this.props.title}</span>
+        <a href={url}>
+            <Icon icon={icon} />
+            <span>{title}</span>
         </a>
     );
   }
