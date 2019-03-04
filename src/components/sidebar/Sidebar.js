@@ -1,5 +1,6 @@
-import { Component } from 'react'
+import React, { Component } from 'react'
 import {
+  Icon,
   IconStar,
   IconHome,
   IconBookOpen,
