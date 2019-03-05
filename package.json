@@ -3,18 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "@fortawesome/fontawesome-free": "^5.7.1",
-    "bootstrap": "4.3.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-=======
     "@fortawesome/fontawesome-free": "^5.7.2",
     "bootstrap": "4.3.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-helmet": "^5.2.0",
->>>>>>> eslint config
     "react-router-dom": "^4.3.1",
     "reactstrap": "7.1.0"
   },
