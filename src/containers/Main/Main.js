@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-import { withRouter } from 'react-router-dom'
-import { Container, Switch, Route } from 'reactstrap'
+import { Route, Switch } from 'react-router-dom'
+import { Container } from 'reactstrap'
+
+import HomePage from '../HomePage'
 
 class Main extends Component {
   render() {
@@ -15,9 +17,11 @@ class Main extends Component {
 
   getRouter() {
     return (
-      <Switch />
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+      </Switch>
     )
   }
 }
 
-export default withRouter((Main))
+export default Main
