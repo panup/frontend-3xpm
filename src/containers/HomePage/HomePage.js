@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Row, Col, Label } from 'reactstrap'
-import { withRouter } from 'react-router'
 import Helmet from 'react-helmet'
 
 class HomePage extends Component {
