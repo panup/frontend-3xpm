@@ -9,9 +9,11 @@
  * case YOUR_ACTION_CONSTANT:
  *   return state.set('yourStateVariable', true);
  */
-
+import { combineReducers } from 'redux'
+import { connectRouter } from 'connected-react-router'
 import players from './reducers/playerReducer'
 
-export default {
+export default (history) => combineReducers({
+  router: connectRouter(history),
   players
-}
+})

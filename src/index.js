@@ -1,14 +1,14 @@
+import { unregister } from './serviceWorker'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './containers/App'
-import * as serviceWorker from './serviceWorker'
-import { createBrowserHistory } from 'history'
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
-import { connectRouter, routerMiddleware } from 'connected-react-router'
+import { routerMiddleware, connectRouter } from 'connected-react-router'
+import { createBrowserHistory } from 'history'
 import moment from 'moment'
 import 'moment/locale/fi'
-import rootReducer from './rootReducer'
+import App from './containers/App'
+import createRootReducer from './createRootReducer'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@fortawesome/fontawesome-free/scss/fontawesome.scss'
@@ -24,15 +24,17 @@ const middleware = [
 ]
 
 const store = createStore(
-  connectRouter(history)(combineReducers(rootReducer)),
+  createRootReducer(history),
   composeWithDevTools(
     applyMiddleware(...middleware)
   )
 )
-
 ReactDOM.render(<App store={store} history={history} />, document.getElementById('root'))
 
+/* ((history) => combineReducers({
+  router: connectRouter(history,
+    createRootReducer) }) */
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister()
+unregister()
