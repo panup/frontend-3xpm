@@ -1,0 +1,290 @@
+[
+  {
+    "team": "Lohik��rmesynnytytt�j�t",
+    "rsi": 555,
+    "rank": 1,
+    "captain": "Qazior",
+    "lineup": "Mr. Hgrt, Qazior, Olsson",
+    "block": "D",
+    "change": 52
+  },
+  {
+    "team": "Kuolemankylv�j�norpat",
+    "rsi": 543,
+    "rank": 2,
+    "captain": "Kalle",
+    "lineup": "kalleMACHINE, jihuuu, Akatora",
+    "block": "C",
+    "change": 34
+  },
+  {
+    "team": "Konnun kasvatit",
+    "rsi": 534,
+    "rank": 3,
+    "captain": "tondE",
+    "lineup": "tondE, Samwise, �lexx",
+    "block": "B",
+    "change": 47
+  },
+  {
+    "team": "Roskajengi",
+    "rsi": 519,
+    "rank": 4,
+    "captain": "Crossie83",
+    "lineup": "Sappana, Crossie83, Tepazi",
+    "block": "C",
+    "change": 16
+  },
+  {
+    "team": "Kantoraketti",
+    "rsi": 518,
+    "rank": 5,
+    "captain": "Jii-Pee",
+    "lineup": "Foggy, Kukko P�rssinen, Jii-Pee",
+    "block": "D",
+    "change": 13
+  },
+  {
+    "team": "Helvetin Isot Vompatit",
+    "rsi": 516,
+    "rank": 6,
+    "captain": "Frozeni",
+    "lineup": "Frozeni, n0madic, Mise66",
+    "block": "A",
+    "change": 24
+  },
+  {
+    "team": "Ankkurin kantajat",
+    "rsi": 508,
+    "rank": 7,
+    "captain": "OsQ",
+    "lineup": "SadPanda[FIN], OsQ, Gr3ippi",
+    "block": "A",
+    "change": 44
+  },
+  {
+    "team": "Paljaat Uneksijat",
+    "rsi": 504,
+    "rank": 8,
+    "captain": "kuha",
+    "lineup": "kuha, qb, Esik�ytt�j�",
+    "block": "B",
+    "change": 30
+  },
+  {
+    "team": "Arctic Monkeys",
+    "rsi": 490,
+    "rank": 9,
+    "captain": "GodApe",
+    "lineup": "GodApe, LordDysp, Halko",
+    "block": "D",
+    "change": 30
+  },
+  {
+    "team": "R�ttatuille",
+    "rsi": 487,
+    "rank": 10,
+    "captain": "Maakka",
+    "lineup": "Maakka, Jouko, R�tta",
+    "block": "A",
+    "change": -3
+  },
+  {
+    "team": "Apustajat",
+    "rsi": 480,
+    "rank": 11,
+    "captain": "Mummis",
+    "lineup": "Kurmuuttaja, Mummis, NervousOx",
+    "block": "B",
+    "change": -18
+  },
+  {
+    "team": "VatiKlaani",
+    "rsi": 479,
+    "rank": 12,
+    "captain": "Leerde",
+    "lineup": "Dearive, Leerde, Tyranni",
+    "block": "B",
+    "change": 15
+  },
+  {
+    "team": "Vauhdikkaat Viuhahtajat",
+    "rsi": 478,
+    "rank": 13,
+    "captain": "Maggis",
+    "lineup": "Lzy^, R3GSER, Maggis",
+    "block": "B",
+    "change": 49
+  },
+  {
+    "team": "Raketti, rauha ja rakkaus",
+    "rsi": 473,
+    "rank": 14,
+    "captain": "InterC",
+    "lineup": "Markusstr, Interc, OSTERIOSSI#87",
+    "block": "C",
+    "change": 18
+  },
+  {
+    "team": "Choke & Stroke",
+    "rsi": 473,
+    "rank": 14,
+    "captain": "Vergi",
+    "lineup": "tombu, Vergi, Pieti",
+    "block": "A",
+    "change": -34
+  },
+  {
+    "team": "Romutuspalvelu",
+    "rsi": 470,
+    "rank": 16,
+    "captain": "ppbac",
+    "lineup": "Jazkottaja, ppbac, oltsu86",
+    "block": "A",
+    "change": 21
+  },
+  {
+    "team": "Majavan pamputtajat",
+    "rsi": 466,
+    "rank": 17,
+    "captain": "MixAndDip",
+    "lineup": "MixAndDip, Hawk, Bobbish",
+    "block": "A",
+    "change": 2
+  },
+  {
+    "team": "Holy Cows",
+    "rsi": 463,
+    "rank": 18,
+    "captain": "JuuC",
+    "lineup": "gkko, JuuC, Akidemus",
+    "block": "B",
+    "change": -6
+  },
+  {
+    "team": "Violated Watermelons",
+    "rsi": 457,
+    "rank": 19,
+    "captain": "Gli7ch",
+    "lineup": "Sadduur, Gli7ch, LeewindTheGreat",
+    "block": "B",
+    "change": 11
+  },
+  {
+    "team": "Faking Maggots",
+    "rsi": 456,
+    "rank": 20,
+    "captain": "Tossis",
+    "lineup": "Tossis, Hoju, BulletBeast",
+    "block": "C",
+    "change": -17
+  },
+  {
+    "team": "Espruits",
+    "rsi": 451,
+    "rank": 21,
+    "captain": "Carnivora",
+    "lineup": "Carnivora, Limsku, Seesami",
+    "block": "C",
+    "change": -30
+  },
+  {
+    "team": "Rakettispagetti",
+    "rsi": 441,
+    "rank": 22,
+    "captain": "Wurpmeister",
+    "lineup": "Lycenda, StoneRainer, Cpt. Wurpmeister",
+    "block": "D",
+    "change": -52
+  },
+  {
+    "team": "Takapenkki huutelijat",
+    "rsi": 434,
+    "rank": 23,
+    "captain": "White Tumu",
+    "lineup": "Sriox, White Tumu, Ponkkimussu",
+    "block": "C",
+    "change": 3
+  },
+  {
+    "team": "Nuoret Hurjat",
+    "rsi": 433,
+    "rank": 24,
+    "captain": "GodAp3",
+    "lineup": "Westu8, Vemma, GodAp3",
+    "block": "B",
+    "change": -20
+  },
+  {
+    "team": "Nuns N' Roses",
+    "rsi": 433,
+    "rank": 24,
+    "captain": "Ankka",
+    "lineup": "Ankka, Chevron, MkZ",
+    "block": "C",
+    "change": -27
+  },
+  {
+    "team": "Kolme Kuningasta",
+    "rsi": 430,
+    "rank": 26,
+    "captain": "Rakis",
+    "lineup": "ZeB, Rakis, Jambba",
+    "block": "D",
+    "change": -16
+  },
+  {
+    "team": "El Papa",
+    "rsi": 427,
+    "rank": 27,
+    "captain": "Pastor1",
+    "lineup": "Pastor1, Elgoras, Parsse",
+    "block": "D",
+    "change": -19
+  },
+  {
+    "team": "Sunken Sailors",
+    "rsi": 427,
+    "rank": 27,
+    "captain": "Rixhard",
+    "lineup": "Poppis, K�se, Rixhard",
+    "block": "D",
+    "change": -29
+  },
+  {
+    "team": "Kattomaalarit",
+    "rsi": 422,
+    "rank": 29,
+    "captain": "SeBbo",
+    "lineup": "SeBbo, Drakh, zumo",
+    "block": "D",
+    "change": -54
+  },
+  {
+    "team": "Poika, Lepakko ja Apina",
+    "rsi": 406,
+    "rank": 30,
+    "captain": "Lepakkotappelu",
+    "lineup": "Lepakkotappelu, kapoxx, sankariapina",
+    "block": "A",
+    "change": -43
+  },
+  {
+    "team": "Kosken Hinauspalvelu Oy",
+    "rsi": 400,
+    "rank": 31,
+    "captain": "Koski<3",
+    "lineup": "Koski<3, Joakim, Steen Brugge",
+    "block": "C",
+    "change": -46
+  },
+  {
+    "team": "Omaishoitajaks linnulle",
+    "rsi": 299,
+    "rank": 32,
+    "captain": "Tonkero420",
+    "lineup": "Tonkero420, Banzee, Kimbo",
+    "block": "A",
+    "change": 15
+  }
+]
