@@ -18,7 +18,8 @@ class Main extends Component {
   getRouter() {
     return (
       <Switch>
-        <Route exact path='/' component={HomePage} />
+        <Route path='/' component={HomePage} />
+        <Route path='/home' component={HomePage} />
       </Switch>
     )
   }
