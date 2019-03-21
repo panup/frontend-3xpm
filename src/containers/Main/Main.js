@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
-import { withRouter } from 'react-router-dom'
-import { Container, Switch, Route } from 'reactstrap'
+import { Route, Switch } from 'react-router-dom'
+import { Container } from 'reactstrap'
+import { connect } from 'react-redux'
+
+import HomePage from '../HomePage'
+
+import './main.scss'
 
 class Main extends Component {
   render() {
@@ -15,9 +20,19 @@ class Main extends Component {
 
   getRouter() {
     return (
-      <Switch />
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route path='/home' component={HomePage} />
+      </Switch>
     )
   }
 }
 
-export default withRouter((Main))
+const mapStateToProps = function({ router, whoAmI }) {
+  console.log('router', router)
+  return {
+    router: router
+  }
+}
+
+export default connect(mapStateToProps)(Main)

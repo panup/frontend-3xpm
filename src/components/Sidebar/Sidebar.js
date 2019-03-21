@@ -1,22 +1,60 @@
 import React, { Component } from 'react'
-import {
-  Icon,
-  IconStar,
-  IconHome,
-  IconBookOpen,
-  IconUsers,
-  IconCogs,
-  IconTwitch
-} from '../Icon'
 
 import './Sidebar.scss'
 import logo from '../../images/3xpmTemp.png'
-import SidebarMenuItem from './SidebarMenuItem.js'
-import SidebarDropdown from './SidebarDropdown.js'
+import { Navbar,
+  NavbarBrand,
+  NavbarToggler,
+  Nav,
+  NavItem,
+  NavLink,
+  Collapse,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  Media } from 'reactstrap'
+import { link } from 'fs'
+import { NavLink as RouterNavLink } from 'react-router-dom'
+const links = [
+  {
+    text: 'Etusivu',
+    link: '/home',
+    exact: true
+  },
+  {
+    text: 'Historiikki',
+    link: '/history',
+    exact: false
+  }
+]
 
 class Sidebar extends Component {
-  render () {
+  constructor(props) {
+    super(props)
+
+    this.toggle = this.toggle.bind(this)
+    this.state = {
+      isOpen: false
+    }
+  }
+
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    })
+  }
+  render() {
     return (
+      <div>
+        <Navbar color='dark' dark expand='lg'>
+          <NavbarBrand exact to='/' tag={RouterNavLink}><Media object src={logo} alt='Logo' /></NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          {this.getLinks()}
+        </Navbar>
+      </div>
+    )
+    /* return (
       <nav className="sidebar_wrapper">
         <div className="sidebar_content">
           <div className="sidebar_brand">
@@ -97,7 +135,19 @@ class Sidebar extends Component {
           </div>
         </div>
       </nav>
-    )
+    ) */
+  }
+  getLinks = () => {
+    const navLinks = links.map(link => (
+      <NavItem key={link.link}>
+        <NavLink exact={link.exact} to={link.link} tag={RouterNavLink} activeClassName='active'>{link.text}</NavLink>
+      </NavItem>
+    ))
+    return <Collapse isOpen={this.state.isOpen} navbar>
+      <Nav className='ml-auto' navbar>
+        {navLinks}
+      </Nav>
+    </Collapse>
   }
 }
 
