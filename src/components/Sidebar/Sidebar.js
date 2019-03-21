@@ -47,8 +47,8 @@ class Sidebar extends Component {
   render() {
     return (
       <div>
-        <Navbar color='dark' dark fixed='top' expand='md'>
-          <NavbarBrand href='/'><Media object src={logo} alt='Logo' /></NavbarBrand>
+        <Navbar color='dark' dark fixed='top' expand='lg'>
+          <NavbarBrand exact to='/' tag={RouterNavLink}><Media object src={logo} alt='Logo' /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           {this.getLinks()}
         </Navbar>
@@ -140,7 +140,7 @@ class Sidebar extends Component {
   getLinks = () => {
     const navLinks = links.map(link => (
       <NavItem key={link.link}>
-        <NavLink exact={link.exact} to={link.link} tag={RouterNavLink} activeClassName='active' isActive={link.isActive}>{link.text}</NavLink>
+        <NavLink exact={link.exact} to={link.link} tag={RouterNavLink} activeClassName='active'>{link.text}</NavLink>
       </NavItem>
     ))
     return <Collapse isOpen={this.state.isOpen} navbar>
