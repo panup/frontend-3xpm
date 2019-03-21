@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Provider } from 'react-redux'
-import Sidebar from '../components/Sidebar/Sidebar.js'
+import Sidebar from '../components/Sidebar/Sidebar'
 import Main from './Main'
 import { ConnectedRouter } from 'connected-react-router'
 import Helmet from 'react-helmet'
