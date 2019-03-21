@@ -47,7 +47,7 @@ class Sidebar extends Component {
   render() {
     return (
       <div>
-        <Navbar color='dark' dark fixed='top' expand='lg'>
+        <Navbar color='dark' dark expand='lg'>
           <NavbarBrand exact to='/' tag={RouterNavLink}><Media object src={logo} alt='Logo' /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           {this.getLinks()}

@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 class HomePage extends Component {
   render() {
+    console.log('object')
     return (
       <div>
         <Row>

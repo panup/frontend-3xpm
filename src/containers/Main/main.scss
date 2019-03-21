@@ -1,0 +1,175 @@
+.main {
+    .alert-primary {
+            margin-top: 3%;
+        }
+        .container-fluid {
+            padding: 0;
+        .login {
+        background-size: cover;
+        background-position: top left, top right, top;
+        min-height: 100vh;
+        .container-fluid {
+            padding-right: 0 !important;
+        }
+        input:-webkit-autofill {
+            -webkit-text-fill-color: #b6bfc7;
+            background-color: transparent;
+            transition: background-color 5000s ease-in-out 0s;
+        }
+        .offset-md-3 {
+            margin: auto;
+            margin-top: 10vh;
+        }
+        .card { 
+            background:  rgba(30, 30, 30, 0.5);
+            width: 70%;
+            padding: 50px 50px;
+            margin: auto;
+        }
+        
+        .card-header{
+            color: #f1f1f1;
+            font-size: 30px;
+            text-align: center;
+            padding-top: 30px;
+            border-bottom: none ;
+            background-color: transparent;
+        }
+        
+        input {
+            background-color: #343a40;
+            border: none;
+            color: #fff !important;
+        }
+        .form-control:focus { 
+            -webkit-box-shadow: none !important;
+            border-color: #fff;
+            text-align: center;
+        
+        }
+        input[type=text] {
+            border: none;
+            border-bottom: 2px solid #4cb847;
+            background-color: transparent;
+            text-align: center;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input[type=text]::placeholder{
+            color: #b6bfc7;
+        }
+        
+        input[type=password] {
+            border: none;
+            border-bottom: 2px solid #4cb847;
+            background-color: transparent;
+            margin-top: 50px;
+            text-align: center;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        
+        input[type=password]::placeholder{
+            color: #b6bfc7;
+        }
+        
+        .form-check {
+            text-align: center;
+            color: #fff;
+            padding-top: 50px;
+        }
+        
+        form button{
+            background: #4cb847 !important;
+            text-align: center;
+            padding:  5px 100px !important;
+        }
+        
+        form {
+            display: block;
+            text-align: center;
+        }
+        
+        .card-body a{
+            color: #fff;
+            text-align: center;
+            display: block;
+            padding-top: 20px;
+        
+        }
+        .text-muted {
+            color: #adadad !important;
+        }
+        .card-body{
+            display: block;
+        }
+
+    }
+
+
+    @media screen and (max-width: 1300px) and (min-width: 1024px) {
+    .login{
+        .card {
+            width: 100%;
+            padding: 0;
+            margin-top: 0 ;
+        }
+        }
+    }
+    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    .login{
+        .card {
+            width: 100%;
+            padding: 0;
+            margin-top: 10% ;
+        }
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+    .login{
+        .card {
+            width: 60%;
+            padding: 0; 
+            border: none;
+        
+        }
+        .offset-md-3 {
+            margin-top: 5vh;
+        }
+        form button {
+            padding:  5px 80px !important;
+        }
+        .navbar-toggler {
+        border: none;
+        }
+        .navbar-toggler:hover {
+            border: solid 1px #4cb847;
+        }
+        .card-header {
+            font-size: 24px;
+        }
+    }
+    }
+    @media screen and (max-width: 599px) { 
+        .login {
+            margin-top: -5%;
+            .card {
+                width: 100%;
+                background-color: transparent;
+            }
+            .card-header {
+                font-size: 20px;
+            
+            }
+        }
+    }
+    }
+    @media screen and (max-width: 400px) { 
+        .container-fluid .login {
+            margin-top: -10%;    }        
+    }
+}
